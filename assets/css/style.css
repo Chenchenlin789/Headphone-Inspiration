@@ -94,7 +94,62 @@ h1 {
     margin-bottom: 75px;
 }
 
+/* second section */
 #alchemy {
     display: flex;
-   margin-left: 5px;
+    margin-left: 20%;
 }
+#alchemy img {
+    height: 30em;
+    margin-bottom: 50px;
+}
+
+#alchemy div:first-child {
+    margin-right: 5%;
+   
+
+}
+#alchemy div:last-child {
+    width: 28vw;
+    margin-left: 5%;
+}
+
+#alchemy div h2 {
+    margin: 45px 0;
+    padding-top: 30px;
+    letter-spacing: 0.06em;
+    font-size: 2em;
+}
+
+#alchemy div p{
+    line-height: 1.7;
+}
+
+/* the Lounger */
+
+#chair, #SoundsLikeHome, #beoplay {
+    display: flex;
+}
+
+#chair img, #SoundsLikeHome img, #beoplay img {
+    width: 60vw;
+    height: 100vh;
+    margin-right: 5%;
+}
+#chair div h2, #SoundsLikeHome div h2 {
+    margin: 85px 0;
+    padding-top: 100px;
+    letter-spacing: 0.06em;
+    font-size: 2em;
+}
+
+#chair div p, #SoundsLikeHome div p{
+    line-height: 1.7;
+}
+
+#chair div:last-child, #SoundsLikeHome div:last-child {
+    margin-left: 5%;
+    width: 28vw;
+}
+
+
