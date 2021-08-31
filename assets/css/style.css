@@ -1,6 +1,6 @@
 /* Font: Work sans
 Farben: #2e2e2e / #867772 / rgb(234, 204, 194) / #ebccc2 / #fff / rgb(115, 115, 115)  */
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300&display=swap');
 
 * {
     margin: 0;
@@ -127,11 +127,11 @@ h1 {
 
 /* the Lounger */
 
-#chair, #SoundsLikeHome, #beoplay {
+#chair, #SoundsLikeHome, #shop {
     display: flex;
 }
 
-#chair img, #SoundsLikeHome img, #beoplay img {
+#chair img, #SoundsLikeHome img {
     width: 60vw;
     height: 100vh;
     margin-right: 5%;
@@ -151,5 +151,125 @@ h1 {
     margin-left: 5%;
     width: 28vw;
 }
+/* video section */
+video {
+margin-left: 20%;
+margin-top: 80px;
+}
+/* Exist to create with 3 buttons section */
+#buttons {
+    margin-left: 15%;
+}
+#buttons h3{
+    margin:170px 0 18px 0;
+    letter-spacing: 0.1em;
+}
+
+#buttons h2{
+    font-size: 3em;
+    letter-spacing: 0.2rem;
+    margin-bottom: 20px;
+}
+
+#buttons p{ 
+    line-height: 2;
+    font-weight: 200;
+    font-size: 1.2em;
+    color: rgb(115, 115, 115);
+
+}
+
+#buttons ul{
+    display: flex;
+   list-style: none;
+   
+}
+#buttons ul li{
+    padding: 5px 17px;
+    border-radius: 2px;
+    margin: 30px 6px 15px 0;
+    border: .8px solid white;
+    text-align: center;
+    color:rgb(115, 115, 115);
+    font-size: .8em;
+    letter-spacing: 0.1em;
+}
 
 
+/* second last page */
+.soundAA1, .soundAA2 {
+    display: flex;
+    margin: 0 15%;
+}
+
+.soundAA1 img, .soundAA2 img {
+    width: 50%;
+}
+.soundAA1 {
+    margin-top: 140px;
+}
+.soundAA2 {
+    margin-bottom: 140px;
+}
+.soundAA1 h4, .soundAA2 h4{
+    padding-top: 10em;
+    padding-left: 5%;
+    padding-bottom: 1rem;
+    letter-spacing: 0.2em;
+}
+.soundAA1 h3, .soundAA2 h3{
+    padding-left: 5%;
+    padding-bottom: 1rem;
+    letter-spacing: 0.1em;
+    font-size: 1.9em;
+}
+.soundAA1 p, .soundAA2 p{
+    padding-left: 5%;
+    padding-bottom: 1rem;
+    line-height: 2;
+    font-weight: 100;
+    width: 80%;
+    color: rgb(115, 115, 115);
+}
+
+
+
+
+/* last page */
+#shop > img {
+    width: 58vw;
+    height: 100vh;
+}
+#shop section:last-of-type {
+  padding-left: 5%;
+  padding-top: 100px;
+}
+
+#shop section:last-of-type h2{
+    line-height: 2;
+    text-align: center;
+    letter-spacing: .2em;
+}
+#shop section:last-of-type h3{
+    line-height: 2;
+    text-align: center;
+    letter-spacing: .2em;
+    font-weight: 100;
+}
+
+
+#shop section:last-of-type a{
+    line-height: 3;
+    text-align: center;
+    margin-left:41%;
+    padding: 0.5rem 1.5rem;
+    text-decoration: none;
+   background-color: #ebccc2;
+   color: #867772;
+   font-size: 1rem;
+   letter-spacing: .1em;
+   font-weight: 300;
+   border-radius: 2px;;
+   
+
+}
